@@ -22,7 +22,7 @@ stopbtn.addEventListener(("click"),()=>{
     console.log("stoping btn");
     
     aud.pause();
-    // aud.currentTime=0;
+    aud.currentTime=0;
     console.log("YOu stop the audio");
 })
 
